@@ -1,0 +1,229 @@
+    .thumbnail {
+    padding: 0 0 30px 0;
+    border: none;
+    border-radius: 0;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 50px;
+    
+   
+}
+            .slideanim {visibility:hidden;}
+.slide {
+   
+    animation-name: slide;
+    -webkit-animation-name: slide;
+   
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+   
+    visibility: visible;
+}
+
+
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+            
+            .carousel-control.right, .carousel-control.left {
+    background-image: none;
+    margin-top: 300px;            
+     padding-left: 200px;           
+                
+    
+}
+    .navbar-nav li a:hover, .navbar-nav li.active a {
+   
+    background-color: lightgray !important;
+}
+
+
+          .carousel
+            {
+                
+               
+                padding-bottom: 120px;
+                
+            }
+            .carousel .item {
+            
+        height: 250px;
+         
+                
+}
+            .carousel-indicators li {
+    border-color: darkgray;
+}
+
+.carousel-indicators li.active {
+    background-color: darkgray;
+}
+            .item h4 {
+    font-size: 1.75em;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    font-family:Verdana, Geneva, sans-serif ;
+      margin : 70px 0px;       
+            
+ }
+    address{
+    font-size:80%;
+    margin:0px;
+    color:#0f0f0f;}
+            
+    .container-fluid {
+    padding : 60px 50px;
+}
+  
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(font2.ttf);
+}
+
+@font-face {
+    font-family: mySecondFont;
+    src: url(dodger3.ttf);
+}
+
+.logo  {
+    font-family: myFirstFont;
+}
+
+.myfont
+{
+    
+     font-family: mySecondFont;
+    
+}
+            #insta{
+                background : gray;
+            }
+            #insta:hover{background  : brown;}
+            
+            
+     
+            #fb{
+                background : gray;
+            }
+            #fb:hover{background  : darkblue;}       
+            
+            
+            
+              #twit{
+                background : gray;
+            }
+            #twit:hover{background  : darkturquoise;}       
+            
+            
+              #tube{
+                background : gray;
+            }
+            #tube:hover{background  : red;}       
+            
+               #mail{
+                   color:white;
+                background : gray;
+            }
+            #mail:hover{color  : darkblue;}       
+            
+            .carousel-inner p
+            {
+
+              color  : gray;
+
+
+            }
+            
+
+     
+       
+
+    * {
+  margin: 0;
+  padding: 0;
+  font-family: roboto;
+}
+
+
+.cont {
+  width: 93%;
+  max-width: 350px;
+  text-align: center;
+  margin: 4% auto;
+  padding: 30px 0;
+  background: #111;
+  color: #EEE;
+  border-radius: 5px;
+  border: thin solid #444;
+  overflow: hidden;
+}
+
+hr {
+  margin: 20px;
+  border: none;
+  border-bottom: thin solid rgba(255,255,255,.1);
+}
+
+div.title { font-size: 2em; }
+
+h1 span {
+  font-weight: 300;
+  color: #Fd4;
+}
+
+div.stars {
+  
+  display: inline-block;
+}
+
+input.star { display: none; }
+
+label.star {
+  float: right;
+  padding: 10px;
+  font-size: 36px;
+  color: #444;
+  transition: all .2s;
+}
+
+input.star:checked ~ label.star:before {
+  content: '\f005';
+  color: #FD4;
+  transition: all .25s;
+}
+
+input.star-5:checked ~ label.star:before {
+  color: #FE7;
+  text-shadow: 0 0 20px #952;
+}
+
+input.star-1:checked ~ label.star:before { color: #F62; }
+
+label.star:hover { transform: rotate(-15deg) scale(1.3); }
+
+label.star:before {
+  content: '\f006';
+  font-family: FontAwesome;
+}

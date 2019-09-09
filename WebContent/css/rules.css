@@ -1,0 +1,35 @@
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(font2.ttf);
+}
+
+@font-face {
+    font-family: mySecondFont;
+    src: url(dodger3.ttf);
+}
+
+.logo  {
+    font-family: myFirstFont;
+}
+
+.myfont
+{
+    
+     font-family: mySecondFont;
+    
+}
+@font-face {
+    font-family: myThirdFont;
+    src: url(dodger3title.ttf);
+}
+
+.myfont3
+{
+    
+     font-family: myThirdFont;
+    
+}
+
+
+
